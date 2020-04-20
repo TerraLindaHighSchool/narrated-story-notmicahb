@@ -24,7 +24,14 @@ public class Star extends Actor
       y = Greenfoot.getRandomNumber(worldHeight);
     
    }
-
+   public int getX()
+   {
+        return x;
+    }
+   public int getY()
+   {
+        return y;
+    }
    public void move()
    {
        x = speed + x;
